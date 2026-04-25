@@ -13,7 +13,7 @@ export default function Contact({ T }) {
     setForm({ name: "", phone: "", service: "", problem: "" });
     setTimeout(() => setSent(false), 3000);
   };
-
+// hi
   const inputStyle = { background: T.card, border: `1px solid ${T.border}`, borderRadius: 10, padding: "12px 14px", color: T.text, fontFamily: "'Exo 2',sans-serif", fontSize: "0.93rem", width: "100%", outline: "none", transition: "border-color 0.25s" };
   const labelStyle = { fontSize: "0.82rem", color: T.muted, fontWeight: 600, letterSpacing: "0.04em", marginBottom: 6, display: "block" };
 
