@@ -1,17 +1,17 @@
 # Sana EV Repairing Center
 
-## VS Code mein run karne ke steps:
+## steps to run in VS Code
 
-1. Is folder ko VS Code mein open karo
-2. Terminal kholo (Ctrl + `)
-3. Ye commands run karo:
+1. Open this Folder in VS code
+2. Open Terminal (Ctrl + `)
+3. Run these commands
 
 ```bash
 npm install
 npm run dev
 ```
 
-4. Browser mein open karo: http://localhost:5173
+4. Open this url in Browser http://localhost:5173
 
 ## Project Structure
 
@@ -24,13 +24,13 @@ SanaEV/
     ├── main.jsx          ← Entry point
     ├── App.jsx           ← Root component
     ├── data/
-    │   └── index.js      ← Saara data (customers, services, etc.)
+    │   └── index.js      ← data (customers, services, etc.)
     ├── theme/
     │   └── index.js      ← Dark / Light colors
     ├── icons/
-    │   └── Icon.jsx      ← Sab SVG icons
+    │   └── Icon.jsx      ← SVG icons
     └── components/
-        ├── UI.jsx         ← Section + SectionHeader (shared)
+        ├── UI.jsx         ← Section + SectionHeader
         ├── Navbar.jsx
         ├── Hero.jsx
         ├── Products.jsx
