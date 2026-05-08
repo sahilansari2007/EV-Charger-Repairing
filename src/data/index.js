@@ -8,6 +8,7 @@ export const CUSTOMERS = [
   { name: "Soltera", initial: "S" },
   { name: "Delta", initial: "D" },
   { name: "Eltak", initial: "E" },
+  { name: "Revolt UTL", initial: "R" },
 ];
 
 export const SERVICES = [

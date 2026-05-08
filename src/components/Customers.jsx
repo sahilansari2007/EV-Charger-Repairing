@@ -106,7 +106,7 @@ export default function Customers({ T }) {
             whiteSpace: "nowrap",
           }}
         >
-          <Icon id="star" size={13} color={T.yellow} /> 9 Trusted Brands
+          <Icon id="star" size={13} color={T.yellow} /> 10 Trusted Brands
         </div>
       </div>
       <div

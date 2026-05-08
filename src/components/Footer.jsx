@@ -8,7 +8,7 @@ export default function Footer({ T, scrollTo }) {
         <div>
           <div style={{ display: "flex", alignItems: "center", gap: 10, fontFamily: "'Rajdhani',sans-serif", fontSize: "1.25rem", fontWeight: 700, color: T.green, marginBottom: "0.8rem" }}>
             <Icon id="bolt" size={32} />
-            Sana EV <span style={{ color: T.text }}>&nbsp;Repairing Center</span>
+            Sana EV Charger<span style={{ color: T.text }}>&nbsp;Repairing Center</span>
           </div>
           <p style={{ color: T.muted, fontSize: "0.88rem", lineHeight: 1.7, maxWidth: 320 }}>
             EV Charger, Inverter, UPS, Motor Controller aur SMPS ki trusted repair service. Quality, speed aur honesty hamare core values hain.

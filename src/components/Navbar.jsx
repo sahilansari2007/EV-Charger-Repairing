@@ -33,7 +33,8 @@ export default function Navbar({ T, dark, setDark, scrollTo, menuOpen, setMenuOp
         style={{ display: "flex", alignItems: "center", gap: 10, fontFamily: "'Rajdhani',sans-serif", fontSize: "1.3rem", fontWeight: 700, color: T.green, cursor: "pointer", userSelect: "none" }}
       >
         <Icon id="bolt" size={36} />
-        <span>Sana EV <span style={{ color: T.text }}>Repairing</span></span>
+        {/* <span>Sana EV <span style={{ color: T.text }}>Repairing</span></span> */}
+        <span style={{ color: T.green }}>S A<span style={{ color: T.text }}> N A</span></span>
       </div>
 
       {/* Desktop Links */}
